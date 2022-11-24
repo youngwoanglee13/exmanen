@@ -1,5 +1,5 @@
-function sumar(a, b) {
-  return a + b;
+function publicar(mensaje) {
+  return mensaje;
 }
 
-export default sumar;
+export default publicar;

@@ -1,4 +1,4 @@
-import sumar from "./sumador";
+import publicar from "./sumador";
 
 const first = document.querySelector("#mensaje");
 const form = document.querySelector("#sumar-form");
@@ -8,6 +8,6 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
   console.log(first.value);
 
-  div.innerHTML = div.innerHTML+ "<p>" + first.value + "</p>";
-  //div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = div.innerHTML+ "<p>" + publicar(first.value) + "</p>";
+ 
 });
